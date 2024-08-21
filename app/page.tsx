@@ -44,9 +44,6 @@ export default function Component() {
           <span className="text-lg font-bold">create-edu-dapp</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-        <Link className="text-sm font-medium hover:underline underline-offset-4" href="/live-dapp-for-testing">
-            Testing Live Dapp
-          </Link>
         <Link className="text-sm font-medium hover:underline underline-offset-4" href="#getting-started">
             Getting Started
           </Link>
