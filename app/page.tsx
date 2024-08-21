@@ -44,11 +44,14 @@ export default function Component() {
           <span className="text-lg font-bold">create-edu-dapp</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
+        <Link className="text-sm font-medium hover:underline underline-offset-4" href="/live-dapp-for-testing">
+            Testing Live Dapp
+          </Link>
+        <Link className="text-sm font-medium hover:underline underline-offset-4" href="#getting-started">
+            Getting Started
+          </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#features">
             Features
-          </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#getting-started">
-            Getting Started
           </Link>
           <Link className="text-sm font-medium hover:underline underline-offset-4" href="#demo">
             Demo
@@ -90,6 +93,7 @@ export default function Component() {
                   >
                     {copied ? 'Copied!' : 'Create'}
                   </Button>
+                  
                 </div>
                 <p className="text-xl text-gray-400 p-5">
                   npx create-edu-dapp {dappName || "<dapp-name>"}
