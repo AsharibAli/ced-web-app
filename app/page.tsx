@@ -6,7 +6,7 @@ import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-import { Terminal, Star, Twitter, Download } from "lucide-react"
+import { Terminal, Star, Twitter, Download, ArrowBigUp } from "lucide-react"
 
 export default function Component() {
   const [dappName, setDappName] = useState("")
@@ -291,7 +291,7 @@ export default function Component() {
         </section>
         <section id="demo" className="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">Demo</h2>
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8"><a href="https://demo.ced.asharib.xyz/" target="_blank"><strong>(Click here to Try Live Demo)</strong></a></h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <Image
                 src="https://github.com/AsharibAli/create-edu-dapp-hardhat/blob/main/frontend/public/create-edu-dapp-before-login.png?raw=true"
@@ -328,19 +328,19 @@ export default function Component() {
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-800">
         <p className="text-xs text-gray-400">© 2024 create-edu-dapp. All rights reserved.</p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/AsharibAli/create-edu-dapp/blob/main/CONTRIBUTING.md">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/AsharibAli/create-edu-dapp/blob/main/CONTRIBUTING.md" target="_blank">
             Contribute
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/AsharibAli/create-edu-dapp/blob/main/LICENSE.md">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/AsharibAli/create-edu-dapp/blob/main/LICENSE.md" target="_blank">
             License
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/AsharibAli/create-edu-dapp">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://github.com/AsharibAli/create-edu-dapp" target="_blank">
             Github
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://www.npmjs.com/package/create-edu-dapp">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://www.npmjs.com/package/create-edu-dapp" target="_blank">
             Npm
           </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="https://x.com/opencampus_xyz/status/1820415072319189198">
+          <Link className="text-xs hover:underline underline-offset-4" href="https://x.com/opencampus_xyz/status/1820415072319189198" target="_blank">
             X/Twitter
           </Link>
         </nav>
