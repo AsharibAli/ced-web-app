@@ -1,4 +1,4 @@
 export interface Contracts {
-    methods: any;
-    setProvider: any;
-  }
+  methods: any;
+  setProvider: any;
+}

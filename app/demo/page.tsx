@@ -148,10 +148,7 @@ const App: React.FC = () => {
             </CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col items-center mt-4 space-y-6">
-            {!ocidUsername && <LoginButton onClick={function (): void {
-              throw new Error("Function not implemented.");
-            // eslint-disable-next-line react/no-children-prop
-            } } children={undefined} />}
+            {!ocidUsername && <LoginButton />}
             {ocidUsername && (
               <div className="text-center text-xl">
                 <h1>

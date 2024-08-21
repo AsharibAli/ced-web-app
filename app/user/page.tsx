@@ -67,10 +67,7 @@ const UserPage = () => {
                   <p className="mb-6 text-gray-600">
                     Please link with open campus to view your details.
                   </p>
-                  <LoginButton onClick={function (): void {
-                      throw new Error("Function not implemented.");
-                    // eslint-disable-next-line react/no-children-prop
-                    } } children={undefined} />
+                  <LoginButton />
                 </div>
               )}
             </CardHeader>
