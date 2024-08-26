@@ -73,7 +73,7 @@ export default function Component() {
                   Build dApps on EduChain
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
-                  A full-stack starter template featuring Next.js & Hardhat or Foundry for building dApps on the Open Campus L3 chain.
+                  A full-stack starter kit featuring Next.js & Hardhat or Foundry for building dApps on the Open Campus L3 chain.
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
@@ -205,9 +205,9 @@ export default function Component() {
                   <polyline points="16 18 22 12 16 6" />
                   <polyline points="8 6 2 12 8 18" />
                 </svg>
-                <h3 className="text-xl font-bold">Simple Example Dapp</h3>
+                <h3 className="text-xl font-bold">Six Example Dapps</h3>
                 <p className="text-sm text-gray-400 text-center">
-                  A simple send & receive message dapp with fully functional backend & frontend to help you get started. 
+                Six full-stack dapps with education-based usecases to help you get started. 
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
