@@ -87,8 +87,9 @@ export default function Component() {
                   Build dApps on EduChain
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
-                  A starter-kit featuring Next.js & Hardhat or Foundry for
-                  building dApps on the Open Campus L3 (EduChain).
+                  A starter-kit featuring React & NextJS and Vue & NuxtJS with
+                  Hardhat or Foundry for building dApps on the Open Campus L3
+                  (EduChain).
                 </p>
               </div>
               <div className="w-full max-w-sm space-y-2">
@@ -160,10 +161,10 @@ export default function Component() {
                   <polyline points="16 18 22 12 16 6" />
                   <polyline points="8 6 2 12 8 18" />
                 </svg>
-                <h3 className="text-xl font-bold">Next.js & Hardhat/Foundry</h3>
+                <h3 className="text-xl font-bold">Frontend Frameworks</h3>
                 <p className="text-sm text-gray-400 text-center">
-                  Choose between Hardhat or Foundry for your smart contract
-                  development environment.
+                  Choose between React & NextJS and Vue & NuxtJS for your
+                  frontend development environment.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-2 border-gray-800 p-4 rounded-lg">
@@ -206,10 +207,11 @@ export default function Component() {
                 >
                   <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
                 </svg>
-                <h3 className="text-xl font-bold">Open Campus L3 Chain</h3>
+                <h3 className="text-xl font-bold">Backend Development</h3>
                 <p className="text-sm text-gray-400 text-center">
-                  Develop, deploy, test, and verify smart contracts on the Open
-                  Campus L3 chain.
+                  Choose between Hardhat or Foundry for your smart contract
+                  development, deployment, testing, and verification
+                  environment.
                 </p>
               </div>
             </div>
@@ -306,6 +308,7 @@ export default function Component() {
                       npx create-edu-dapp your-dapp-name
                     </code>
                   </li>
+                  <li>Select Frontend Framework</li>
                   <li>Select Hardhat option</li>
                   <li>
                     cd into the directory:{" "}
@@ -327,6 +330,7 @@ export default function Component() {
                       npx create-edu-dapp your-dapp-name
                     </code>
                   </li>
+                  <li>Select Frontend Framework</li>
                   <li>Select Foundry option</li>
                   <li>
                     cd into the directory:{" "}
