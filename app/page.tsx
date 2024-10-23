@@ -38,13 +38,13 @@ export default function Component() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center" href="#">
           <Image
-            src="https://www.opencampus.xyz/static/media/coin-logo.39cbd6c42530e57817a5b98ac7621ca7.svg"
-            alt="Open Campus Logo"
+            src="https://raw.githubusercontent.com/AsharibAli/eduhub/refs/heads/main/public/eduhub.png"
+            alt="EduHub Logo"
             className="h-8 w-8 mr-2"
             width={100}
             height={100}
           />
-          <span className="text-lg font-bold">create-edu-dapp</span>
+          <span className="text-lg font-bold">EduKit | create-edu-dapp</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
@@ -61,7 +61,8 @@ export default function Component() {
           </Link>
           <Link
             className="text-sm font-medium hover:underline underline-offset-4"
-            href="#demo"
+            href="https://demo.ced.asharib.xyz/"
+            target="_blank"
           >
             Demo
           </Link>
@@ -358,28 +359,28 @@ export default function Component() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <Image
-                src="https://github.com/AsharibAli/create-edu-dapp-hardhat/blob/main/frontend/public/create-edu-dapp-before-login.png?raw=true"
+                src="https://github.com/AsharibAli/create-edu-dapp/blob/main/frontend/react-nextjs/public/create-edu-dapp-before-login.png?raw=true"
                 alt="create-edu-dapp Before Auth"
                 className="w-full rounded-lg"
                 width={100}
                 height={100}
               />
               <Image
-                src="https://github.com/AsharibAli/create-edu-dapp-hardhat/blob/main/frontend/public/create-edu-dapp-after-login.png?raw=true"
+                src="https://github.com/AsharibAli/create-edu-dapp/blob/main/frontend/react-nextjs/public/create-edu-dapp-after-login.png?raw=true"
                 alt="create-edu-dapp After Auth"
                 className="w-full rounded-lg"
                 width={100}
                 height={100}
               />
               <Image
-                src="https://github.com/AsharibAli/create-edu-dapp-hardhat/blob/main/frontend/public/connect-with-ocid-before-login.png?raw=true"
+                src="https://github.com/AsharibAli/create-edu-dapp/blob/main/frontend/react-nextjs/public/connect-with-ocid-before-login.png?raw=true"
                 alt="connect-with-ocid Before Auth"
                 className="w-full rounded-lg"
                 width={100}
                 height={100}
               />
               <Image
-                src="https://github.com/AsharibAli/create-edu-dapp-hardhat/blob/main/frontend/public/connect-with-ocid-after-login.png?raw=true"
+                src="https://github.com/AsharibAli/create-edu-dapp/blob/main/frontend/react-nextjs/public/connect-with-ocid-after-login.png?raw=true"
                 alt="connect-with-ocid After Auth"
                 className="w-full rounded-lg"
                 width={100}
@@ -391,7 +392,13 @@ export default function Component() {
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t border-gray-800">
         <p className="text-xs text-gray-400">
-          © 2024 create-edu-dapp. All rights reserved.
+          © 2024 EduKit |{" "}
+          <strong>
+            <a href="https://eduhub.dev" target="_blank">
+              EduHub.
+            </a>
+          </strong>{" "}
+          All rights reserved.
         </p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link
@@ -410,7 +417,7 @@ export default function Component() {
           </Link>
           <Link
             className="text-xs hover:underline underline-offset-4"
-            href="https://github.com/AsharibAli/create-edu-dapp"
+            href="https://github.com/EduHub-dev"
             target="_blank"
           >
             Github
@@ -424,10 +431,17 @@ export default function Component() {
           </Link>
           <Link
             className="text-xs hover:underline underline-offset-4"
-            href="https://x.com/opencampus_xyz/status/1820415072319189198"
+            href="https://x.com/eduhub__"
             target="_blank"
           >
-            X/Twitter
+            X
+          </Link>
+          <Link
+            className="text-xs hover:underline underline-offset-4"
+            href="https://t.me/+2LHHeOdkZvJmZWJk"
+            target="_blank"
+          >
+            Telegram
           </Link>
         </nav>
       </footer>
